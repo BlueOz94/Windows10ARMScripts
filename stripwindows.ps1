@@ -17,5 +17,5 @@ Set-Service -StartupType Disabled -Name "LanmanServer"
 Set-Service -StartupType Disabled -Name "SysMain"
 Set-Service -StartupType Disabled -Name "lmhosts"
 Set-Service -StartupType Disabled -Name "Themes"
-Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name "Shell" -Value "C:\Program Files (x86)\Overwatch\_retail_\Overwatch.exe"
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name "Shell" -Value "C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win64\RocketLeague.exe"
 shutdown /r /t 0
